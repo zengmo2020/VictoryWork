@@ -1,0 +1,10 @@
+C:\Users\zshen\Desktop\DESCryptor\bin\Debug\DESCryptor.exe.config
+C:\Users\zshen\Desktop\DESCryptor\bin\Debug\DESCryptor.exe
+C:\Users\zshen\Desktop\DESCryptor\bin\Debug\DESCryptor.pdb
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.Form1.resources
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.Properties.Resources.resources
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.csproj.GenerateResource.cache
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.csproj.CoreCompileInputs.cache
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.exe
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.pdb
+C:\Users\zshen\Desktop\DESCryptor\obj\Debug\DESCryptor.csproj.AssemblyReference.cache
