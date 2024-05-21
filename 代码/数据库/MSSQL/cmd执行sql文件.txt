@@ -1,0 +1,3 @@
+ 在cmd中执行以下语句：
+ 
+ sqlcmd -S 123.206.186.100\\MSSQLSERVER2014,1433 -d Sunyah.TalentService.MZCard -U sa -P Sunyah123 -i E:\e.sql
