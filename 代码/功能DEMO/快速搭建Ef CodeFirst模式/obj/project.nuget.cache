@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dNojUadKsebrKSq25TVyQyzjs2avsnM3q7K1puJaxR7Oy1ncKytiDOIVAlacIZJi6H2q9av9POT1rt9xq4VdoA==",
+  "dgSpecHash": "cbbdclnuOcTPV93bGBmRhMqjEY9hUbTFTirasmVbtO3MPDKdnTyxWvqvPDEGeeDtGCwuOeODFyrMSkasjsEtZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zshen\\Desktop\\TalentOldDBHelper\\TalentOldDBHelper.csproj",
+  "projectFilePath": "F:\\项目研究\\git\\VictoryWork\\代码\\功能DEMO\\快速搭建Ef CodeFirst模式\\TalentOldDBHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zshen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\zshen\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

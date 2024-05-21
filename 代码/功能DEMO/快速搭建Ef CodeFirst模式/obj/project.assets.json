@@ -4937,11 +4937,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zshen\\Desktop\\TalentOldDBHelper\\TalentOldDBHelper.csproj",
+      "projectUniqueName": "F:\\项目研究\\git\\VictoryWork\\代码\\功能DEMO\\快速搭建Ef CodeFirst模式\\TalentOldDBHelper.csproj",
       "projectName": "TalentOldDBHelper",
-      "projectPath": "C:\\Users\\zshen\\Desktop\\TalentOldDBHelper\\TalentOldDBHelper.csproj",
+      "projectPath": "F:\\项目研究\\git\\VictoryWork\\代码\\功能DEMO\\快速搭建Ef CodeFirst模式\\TalentOldDBHelper.csproj",
       "packagesPath": "C:\\Users\\zshen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zshen\\Desktop\\TalentOldDBHelper\\obj\\",
+      "outputPath": "F:\\项目研究\\git\\VictoryWork\\代码\\功能DEMO\\快速搭建Ef CodeFirst模式\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

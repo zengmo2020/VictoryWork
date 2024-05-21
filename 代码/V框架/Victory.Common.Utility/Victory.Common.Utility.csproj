@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Excel\" />
+    <Folder Include="Json\" />
+    <Folder Include="Enum\" />
+    <Folder Include="Html\" />
+    <Folder Include="NPOI\" />
+    <Folder Include="File\" />
+    <Folder Include="Datetime\" />
+    <Folder Include="String\" />
+    <Folder Include="SqlHelper\" />
+  </ItemGroup>
+
+</Project>
