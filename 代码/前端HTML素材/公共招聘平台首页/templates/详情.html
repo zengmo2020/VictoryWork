@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../layui/css/layui.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<div class="header headerpost">
+				<h3><a href="#" class="main-head-ss"><img src="../images/logo.png" height="72"></a>
+				    <div class="main-head-title">
+						<a href="#" class="main-head-top">上海市浦东新区公共人力资源公开招聘平台</a>
+						<a href="#" class="main-head-bottom">Public Human Resources Open Recruitment Platform in Shanghai Pudong New Area</a>
+					</div>
+				</h3>
+			</div>	
+			<div class="sy-menu-title">浦东新区2019年上半年部分街镇社区工作者和部分单位编外人员公开招聘</div>
+		</header>
+		<!--内容-->
+		<div class="center-detail">
+		    <div class="fl">
+				<div class="first">
+					<h3>报名倒计时</h3>
+					<div id="timeNow"><p>0</p><span>天</span><p>0</p><span>时</span><p>0</p><span>分</span><p>0</p><span>秒</span></div>
+					<a href="#">登录</a><a href="#">注册</a>
+				</div>
+				<div class="second"><a href="#">点击查看招聘简章</a></div>
+				<div class="three">
+					<h3>技术问答</h3>
+					<ul>
+						<li><a href="#">• 浦东新区2019年上半年部分街镇社区工作</a></li>
+						<li><a href="#">• 2019年曹路镇第一批村两委外工作人员公</a></li>
+						<li><a href="#">• 浦东新区2019年上半年部分街镇社区工作街镇社区工作</a></li>
+						<li><a href="#">• 2019年曹路镇第一批村两委外工作人员公</a></li>
+						<li><a href="#">• 2019年大团镇村两委外工作人员公开招聘</a></li></ul>
+				</div>
+			</div>
+		    <div class="fr">
+				<div class="first">
+					<h3>技术问答</h3>
+					<ul>
+						<li><a href="#">• 浦东新区2019年上半年部分街镇社区工作</a></li>
+						<li><a href="#">• 2019年曹路镇第一批村两委外工作人员公</a></li>
+						<li><a href="#">• 浦东新区2019年上半年部分街镇社区工作街镇社区工作</a></li>
+						<li><a href="#">• 2019年曹路镇第一批村两委外工作人员公</a></li>
+						<li><a href="#">• 2019年大团镇村两委外工作人员公开招聘</a></li></ul>
+				</div>
+				<div class="second">
+					<ul><li><p>考生报名</p><span>2019-03-18 10:00 开始</span><span>2019-03-22 16:00 结束</span><a href="#">已结束</a></li>
+					    <li><p>考生报名</p><span>2019-03-18 10:00 开始</span><span>2019-03-22 16:00 结束</span><a href="#">已结束</a></li>
+					    <li><p>考生报名</p><span>2019-03-18 10:00 开始</span><span>2019-03-22 16:00 结束</span><a href="#">已结束</a></li>
+					    <li><p>考生报名</p><span>2019-03-18 10:00 开始</span><span>2019-03-22 16:00 结束</span><a href="#">已结束</a></li>
+					    <li><p>考生报名</p><span>2019-03-18 10:00 开始</span><span>2019-03-22 16:00 结束</span><a href="#">已结束</a></li>
+					    <li><p>考生报名</p><span>2019-03-18 10:00 开始</span><span>2019-03-22 16:00 结束</span><a href="#">已结束</a></li></ul>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<footer class="footer">
+			<div class="xn-footer">
+				<div class="div">
+					<h3>本网站由上海中夏旭波律师事务所担任常年法律顾问</h3>
+					<p>Copylight �-2019 浦东人才 版权所有 <br />
+						联系电话：021－58604337  <br />
+						沪ICP备16024494号   <br />
+						沪公网安备 31011502002386号  </p>
+				</div>
+				<img src="../images/erwm.png" />
+			</div>
+		</footer>
+		
+		
+		<script type="text/javascript" src="../layui/layui.js"></script>
+		<script type="text/javascript">
+		layui.use(['element','carousel'], function(){
+			  var element = layui.element,carousel=layui.carousel,$=layui.jquery;
+			  //时间
+			  showTime((function(){
+				  var time1=new Date(2019,8,10,12,00,00);
+				  var time2=new Date(2019,8,20,12,00,00);
+				  return parseInt((time2.getTime()-time1.getTime())/1000);
+			  })())
+			  function showTime(time){
+				var d = parseInt(time/(24*60*60)),
+				    h = parseInt(time/(60*60)%24),
+				    m = parseInt(time/60%60),
+				    s = parseInt(time%60);
+				$("#timeNow p").eq(0).html(d);
+				$("#timeNow p").eq(1).html(h);
+				$("#timeNow p").eq(2).html(m);
+				$("#timeNow p").eq(3).html(s);
+				setTimeout(function() {
+					showTime(time-1)
+				}, 1000);	  
+			  }
+		});
+		</script>
+	</body>
+</html>

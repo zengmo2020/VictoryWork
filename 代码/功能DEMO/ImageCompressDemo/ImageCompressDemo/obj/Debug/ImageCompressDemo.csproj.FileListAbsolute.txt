@@ -1,0 +1,7 @@
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\bin\Debug\ImageCompressDemo.exe.config
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\bin\Debug\ImageCompressDemo.exe
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\bin\Debug\ImageCompressDemo.pdb
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\obj\Debug\ImageCompressDemo.csprojResolveAssemblyReference.cache
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\obj\Debug\ImageCompressDemo.exe
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\obj\Debug\ImageCompressDemo.pdb
+C:\Users\zsl\Desktop\ImageCompressDemo\ImageCompressDemo\obj\Debug\ImageCompressDemo.csproj.CoreCompileInputs.cache
